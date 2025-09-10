@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/src/output.css" rel="stylesheet" />
+    <title>dan's yard</title>
+  </head>
+  <body class="bg-gray-100">
+    <!-- Navigation Bar -->
+    <header
+      class="flex justify-between pl-8 pr-8 pt-4 pb-4 text-gray-800 shadow-inner items-center">
+
+      <!-- logo -->
+      <svg
+        id="Calque_5"
+        data-name="Calque 5"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 3000 3000"
+        class="hidden flex-1 fill-gray-800 size-13 hover:animate-spin hover:fill-amber-600 transition-all sm:flex justify-center">
+        <polygon
+          points="1499.97 270.37 1679.74 1066.1 2369.47 630.55 1933.93 1320.29 2729.6 1500 1933.93 1679.71 2369.47 2369.45 1679.74 1933.9 1499.97 2729.63 1320.26 1933.9 630.53 2369.45 1066.07 1679.71 270.4 1500 1066.07 1320.29 630.53 630.55 1320.26 1066.1 1499.97 270.37" />
+      </svg>
+
+      <!-- navigation -->
+      <div class="justify-center">
+        <ul
+          class="flex sm:flex-1 justify-between gap-4 items-center align-middle">
+          <li>
+            <a
+              href="/projects.html"
+              class="hover:text-gray-500 transition-colors"
+              >projects</a
+            >
+          </li>
+          <li>
+            <a href="assets/DanielFresume.pdf" target="_blank" class="hover:text-gray-500 transition-colors">resume</a>
+          </li>
+        </ul>
+      </div>
+      <div class="sm:flex-1 gap-1 justify-end sm:flex sm:justify-center">
+        
+
+        <!-- timezone -->
+        <div>
+        <span class="hidden sm:flex"
+          ><span id="state"></span>,
+          </div><span id="country"></span>
+        </span>
+        <span id="time" class="justify-end"></span>
+      </div>
+    </header>
+
+    <!-- Introduction + Cards -->
+    <section class="p-8">
+      <div class="pb-4 flex gap-4">
+        <h1 class="text-4xl pb-4">
+          Hi, i'm <span class="text-amber-600 underline">Daniel</span> ! — I hope you're
+          doing good !
+        </h1>
+      </div>
+      <section class="grid gap-4 sm:grid-cols-2">
+        <div class="bg-gray-200 text-gray-900 p-4 rounded-2xl shadow-inner">
+          <span class="text-2xl text-green-600">$ whoami</span>
+          <p>
+            <span class="text-green-600">></span> I'm 20 years old, I study web
+            developpement at
+            <a
+              href="https://ecole-decode.fr"
+              class="hover:text-amber-700 transition-all animate-pulse"
+              target="_blank"
+              >decode</a
+            >
+            in Paris. and currently looking for an alternship.
+          </p>
+        </div>
+        <div
+          class="bg-gray-200 text-gray-900 p-4 rounded-2xl shadow-inner focus:">
+          <span class="text-2xl text-green-600">$ hobbies</span>
+          <p>
+            <span class="text-green-600">></span> I like graphic design, coding,
+            learning new things and making music.
+          </p>
+        </div>
+      </section>
+    </section>
+
+    <section class="p-8"></section>
+
+    <script src="/index.js"></script>
+  </body>
+</html>
