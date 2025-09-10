@@ -13,6 +13,7 @@
     <!-- Navigation Bar -->
     <header
       class="flex justify-between pl-8 pr-8 pt-4 pb-4 text-gray-800 shadow-inner items-center">
+      <!-- logo -->
       <a
         href="/index.html"
         class="hidden flex-1 fill-gray-800 size-13 hover:animate-spin hover:fill-amber-600 transition-all sm:flex justify-center">
@@ -25,6 +26,8 @@
             points="1499.97 270.37 1679.74 1066.1 2369.47 630.55 1933.93 1320.29 2729.6 1500 1933.93 1679.71 2369.47 2369.45 1679.74 1933.9 1499.97 2729.63 1320.26 1933.9 630.53 2369.45 1066.07 1679.71 270.4 1500 1066.07 1320.29 630.53 630.55 1320.26 1066.1 1499.97 270.37" />
         </svg>
       </a>
+
+      <!-- navigation -->
       <div class="justify-center">
         <ul
           class="flex sm:flex-1 justify-between gap-4 items-center align-middle">
@@ -48,11 +51,14 @@
           </li>
         </ul>
       </div>
+
+      <!-- timezone -->
       <div class="sm:flex-1 gap-1 justify-end sm:flex sm:justify-center">
         <span class="hidden sm:flex gap-1"
-          ><span id="state"></span><span id="country"></span>
+          ><span class="hidden sm:flex" id="state"></span
+          ><span id="country"></span>
         </span>
-        <span id="time" class="justify-end"></span>
+        <span class="hidden sm:flex" id="time" class="justify-end"></span>
       </div>
     </header>
 
