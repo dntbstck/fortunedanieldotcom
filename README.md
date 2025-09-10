@@ -6,7 +6,7 @@ This is my personal website and portfolio. The project is currently a work in pr
 
 - HTML
 - JavaScript
-- Tailwind CSS (may switch from plain CSS)
+- Tailwind CSS 
 
 ## Status
 
@@ -27,7 +27,7 @@ Ceci est mon site personnel et portfolio. Le projet est encore en cours de déve
 
 - HTML
 - JavaScript
-- Tailwind CSS (je pourrais passer du CSS classique à Tailwind)
+- Tailwind CSS
 
 ## Statut
 
