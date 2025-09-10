@@ -4,15 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/src/output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <title>dan's yard</title>
   </head>
-  <body class="bg-white dark:bg-gray-700">
+  <body class="bg-white overflow-hidden dark:bg-gray-700">
     <!-- Navigation Bar -->
-    <header
+   
+<header
       class="flex justify-between pl-8 pr-8 pt-4 pb-4 text-gray-800 dark:text-gray-300 items-center">
 
       <!-- logo -->
-       <a href="/index.html" class="hidden flex-1 dark:fill-gray-300 fill-gray-800 size-13 hover:animate-spin hover:fill-green-600 dark:hover:fill-blue-300 transition-all sm:flex justify-center">
+      <a href="/index.html" class="hidden flex-1 dark:fill-gray-300 fill-gray-800 size-13 hover:animate-spin hover:fill-green-600 dark:hover:fill-blue-300 transition-all sm:flex justify-center">
       <svg
         id="Calque_5"
         data-name="Calque 5"
@@ -28,6 +32,9 @@
       <div class="justify-center">
         <ul
           class="flex sm:flex-1 justify-between gap-4 items-center align-middle">
+          <li class="sm:hidden flex">
+            <a href="/index.html" class="hover:text-gray-500 dark:hover:text-blue-300 transition-colors">home</a>
+          </li>
           <li>
             <a
               href="/projects.html"
@@ -35,7 +42,7 @@
               >projects</a
             >
           </li>
-          <li>
+          <li class="hidden">
             <a href="assets/danielfortuneresume.pdf" target="_blank" class="hover:text-gray-500 dark:hover:text-blue-300 transition-colors">resume</a>
           </li>
           <li>
@@ -47,10 +54,11 @@
           </li>
         </ul>
       </div>
+      <!-- timezone -->
       <div class="sm:flex-1 gap-1 justify-end sm:flex sm:justify-center">
         
 
-        <!-- timezone -->
+        
         <div>
         <span class="hidden sm:flex"
           ><span class="hidden sm:flex" id="state"></span>,
@@ -60,43 +68,38 @@
       </div>
     </header>
 
-
-    <!-- Introduction -->
-    <div class=" pl-8 pt-8 pr-8 flex gap-4 dark:text-gray-400">
-        <h1 class="text-4xl pb-4">
-          Hi, i'm <span class="text-green-600 dark:text-blue-300">Daniel</span> ! — I hope you're
-          doing good !
-        </h1>
-        
-      </div>
-    <!--  Cards -->
-    <section class="p-8 grid gap-4 ">
-        <!-- Card 1 -->
-        <div class="bg-gray-100 text-gray-900 dark:text-gray-300 dark:bg-gray-800 p-4 rounded-2xl shadow-inner dark:shadow-inner gap-4 flex flex-col">
-          <span class="text-2xl text-green-600 dark:text-blue-300">$ whoami</span>
-          <p>
-            <span class="text-green-600 dark:text-blue-300">></span> I'm 20, I study web
-            developpement at
+    <!-- Introduction + Cards -->
+    <section class="p-8 h-[100vh] items-center justify-center flex">
+      <div
+        class="bg-gray-100 text-gray-900 dark:text-gray-300 dark:bg-gray-800 p-4 gap-2 rounded-2xl shadow-inner items-center justify-center sm:flex w-2xs flex flex-col">
+        <span class="text-2xl text-green-600 dark:text-blue-300"
+          >Contact Me @</span
+        >
+        <ul class="p-4 text-center flex flex-col gap-4 justify-center">
+          <li
+            class="hover:text-green-600 dark:hover:text-blue-300 transition-colors">
+            <a href="https://www.linkedin.com/in/danielfortuné">Linkedin</a>
+          </li>
+          <li
+            class="hover:text-green-600 dark:hover:text-blue-300 transition-colors">
+            <a href="mailto:contact@fortunedaniel.com">E-mail</a>
+          </li>
+          <li
+            class="transition-colors hover:text-green-600 dark:hover:text-blue-300">
+            <a href="https://github.com/dntbstck/">Github</a>
+          </li>
+          <li>
             <a
-              href="https://ecole-decode.fr"
-              class="hover:text-amber-700 dark:hover:text-blue-300  transition-all animate-pulse"
+              href="assets/danielfortuneresume.pdf"
               target="_blank"
-              >Decode</a
+              class="hover:text-green-600 dark:hover:text-blue-300 transition-colors"
+              >Resume / CV</a
             >
-            in Paris, and currently looking for an alternship.
-          </p>
-       
-        <!-- Card 2 -->
-        
-          <span class="text-2xl text-green-600 dark:text-blue-300">$ hobbies</span>
-          <p>
-            <span class="text-green-600 dark:text-blue-300">></span> I like graphic design, coding,
-            learning new things and making music.
-          </p>
-        </div>  
+          </li>
+        </ul>
+      </div>
     </section>
 
-   
     <script src="/index.js"></script>
   </body>
 </html>
