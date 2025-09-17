@@ -4,18 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="apple-touch-icon" href="assets/icon.png" type="image/x-icon" />
-    <link rel="shortcut icon" href="/assets/AA STAR white red.png" type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      href="/assets/AA STAR white red.png"
+      type="image/x-icon" />
     <link rel="icon" href="/assets/AASTARwhitered.svg" type="image/x-icon" />
     <link href="/src/output.css" rel="stylesheet" />
     <title>dan's yard</title>
   </head>
   <body class="bg-white dark:bg-gray-700">
     <!-- Navigation Bar -->
-    <header
+   <header
       class="flex justify-between pl-8 pr-8 pt-4 pb-4 text-gray-800 dark:text-gray-300 items-center">
 
       <!-- logo -->
-       <a href="/index.html" class="hidden flex-1 dark:fill-gray-300 fill-gray-800 size-13 hover:animate-spin hover:fill-green-600 dark:hover:fill-blue-300 transition-all sm:flex justify-center">
+      <a href="/index.html" class=" flex-1 dark:fill-gray-300 fill-gray-800 size-13 hover:fill-green-600 dark:hover:fill-blue-300 transition-all flex ">
       <svg
         id="Calque_5"
         data-name="Calque 5"
@@ -28,32 +31,9 @@
       </a>
 
       <!-- navigation -->
-      <div class="justify-center">
-        <ul
-          class="flex sm:flex-1 justify-between gap-4 items-center align-middle">
-          <li>
-            <a
-              href="/projects.html"
-              class="hover:text-gray-500 dark:hover:text-blue-300 transition-colors"
-              >projects</a
-            >
-          </li>
-          <li>
-            <a href="assets/danielfortuneresume.pdf" target="_blank" class="hover:text-gray-500 dark:hover:text-blue-300 transition-colors">resume</a>
-          </li>
-          <li>
-            <a
-              href="/contactme.html"
-              class="hover:text-gray-500 dark:hover:text-blue-300 transition-colors"
-              >contact</a
-            >
-          </li>
-        </ul>
-      </div>
-      <div class="sm:flex-1 gap-1 justify-end sm:flex sm:justify-center">
-        
-
-        <!-- timezone -->
+      
+      <!-- timezone -->
+      <div class="sm:flex-1 gap-1 justify-end flex ">
         <div>
         <span class="hidden sm:flex"
           ><span class="hidden sm:flex" id="state"></span>,
@@ -63,43 +43,115 @@
       </div>
     </header>
 
-
     <!-- Introduction -->
-    <div class=" pl-8 pt-8 pr-8 flex gap-4 dark:text-gray-400">
-        <h1 class="text-4xl pb-4">
-          Hi, i'm <span class="text-green-600 dark:text-blue-300">Daniel</span> ! — I hope you're
-          doing good !
-        </h1>
-        
+    <div class="pl-8 pt-8 pr-8 flex gap-4 dark:text-gray-400">
+      <h1 class="text-4xl pb-4">
+        Hi, i'm <span class="text-green-600 dark:text-blue-300">Daniel</span> !
+        — I hope you're doing good !
+      </h1>
+    </div>
+    <!--  Card -->
+    <section class="p-8 grid gap-4">
+      <!-- Card -->
+      <div
+        class="bg-gray-100 text-gray-900 dark:text-gray-300 dark:bg-gray-800 p-4 rounded-2xl shadow-inner dark:shadow-inner gap-4 flex flex-col">
+        <span class="text-2xl text-green-600 dark:text-blue-300">$ whoami</span>
+        <span>
+          <span class="text-green-600 dark:text-blue-300">></span> I'm 20, I
+          study web developpement at
+          <a
+            href="https://ecole-decode.fr"
+            class="hover:text-amber-700 dark:hover:text-blue-300 transition-all animate-pulse"
+            target="_blank"
+            >Decode</a
+          >
+          in Paris and i'm currently looking for an alternship as a frontend
+          developper.
+        </span>
+
+        <span class="text-2xl text-green-600 dark:text-blue-300"
+          >$ hobbies</span
+        >
+        <span>
+          <span class="text-green-600 dark:text-blue-300">></span> I like
+          graphic design, coding, learning new things and making music.
+        </span>
       </div>
-    <!--  Cards -->
-    <section class="p-8 grid gap-4 ">
-        <!-- Card 1 -->
-        <div class="bg-gray-100 text-gray-900 dark:text-gray-300 dark:bg-gray-800 p-4 rounded-2xl shadow-inner dark:shadow-inner gap-4 flex flex-col">
-          <span class="text-2xl text-green-600 dark:text-blue-300">$ whoami</span>
-          <p>
-            <span class="text-green-600 dark:text-blue-300">></span> I'm 20, I study web
-            developpement at
-            <a
-              href="https://ecole-decode.fr"
-              class="hover:text-amber-700 dark:hover:text-blue-300  transition-all animate-pulse"
-              target="_blank"
-              >Decode</a
-            >
-            in Paris and i'm currently looking for an alternship as a frontend developper.
-          </p>
-       
-        <!-- Card 2 -->
-        
-          <span class="text-2xl text-green-600 dark:text-blue-300">$ hobbies</span>
-          <p>
-            <span class="text-green-600 dark:text-blue-300">></span> I like graphic design, coding,
-            learning new things and making music.
-          </p>
-        </div>  
     </section>
 
-   
+    <div class="pl-8 pt-4 pr-8 flex gap-4 dark:text-gray-400">
+      <h1 class="text-4xl pb-4">My <span class="text-green-600 dark:text-blue-300">skillset</span> ! — And it's still growing !</h1>
+    </div>
+
+    <section class="p-8 grid gap-4">
+      <div
+        class="bg-gray-100 text-gray-900 dark:text-gray-300 dark:bg-gray-800 p-4 rounded-2xl shadow-inner dark:shadow-inner gap-4 flex flex-col">
+        <span class="text-2xl text-green-600 dark:text-blue-300"
+          >$ languages & frameworks</span
+        >
+        <ul>
+          <li>
+            <span class="text-green-600 dark:text-blue-300">></span> HTML5
+          </li>
+          <li>
+            <span class="text-green-600 dark:text-blue-300">></span> CSS3 /
+            TailwindCSS
+          </li>
+          <li>
+            <span class="text-green-600 dark:text-blue-300">></span> JavaScript
+            / TypeScript
+          </li>
+          <li>
+            <span class="text-green-600 dark:text-blue-300">></span> Git /
+            GitHub
+          </li>
+          <li>
+            <span class="text-green-600 dark:text-blue-300">></span> SQL
+          </li>
+           <li>
+            <span class="text-green-600 dark:text-blue-300">></span> Figma
+          </li>
+        </ul>
+      </div>
+    </section>
+
+ <div class="pl-8 pt-4 pr-8 flex gap-4 dark:text-gray-400">
+      <h1 class="text-4xl pb-4">Wanna <span class="text-green-600 dark:text-blue-300">get in touch</span> ?</h1>
+    </div>
+
+     <section class="p-8 grid gap-4">
+      <div
+        class="bg-gray-100 text-gray-900 dark:text-gray-300 dark:bg-gray-800 p-4 rounded-2xl shadow-inner dark:shadow-inner gap-4 flex flex-col"> <span class="text-2xl text-green-600 dark:text-blue-300"
+          >Contact Me @</span
+        >
+        <ul >
+          <li
+            class="hover:text-green-600 dark:hover:text-blue-300 transition-colors"> <span class="text-green-600 dark:text-blue-300">></span>
+            <a href="https://www.linkedin.com/in/danielfortuné" class=" hover:text-green-600 dark:hover:text-blue-300 animate-pulse transition-colors">Linkedin</a>
+          </li>
+          <li
+            class="hover:text-green-600 dark:hover:text-blue-300 transition-colors"> <span class="text-green-600 dark:text-blue-300">></span>
+            <a href="mailto:contact@fortunedaniel.com" class="animate-pulse">E-mail</a>
+          </li>
+          <li
+            class=" transition-colors hover:text-green-600 dark:hover:text-blue-300"> <span class=" text-green-600 dark:text-blue-300">></span>
+            <a href="https://github.com/dntbstck/" class="animate-pulse">Github</a>
+          </li>
+          <li>
+            <span class="text-green-600 dark:text-blue-300">></span>
+            <a
+              href="assets/danielfortuneresume.pdf"
+              target="_blank"
+              class=" hover:text-green-600 dark:hover:text-blue-300 animate-pulse transition-colors"
+              >  Resume / CV</a
+            >
+          </li>
+        </ul>
+      </div>
+    </section>
+
+     
+
     <script src="/index.js"></script>
   </body>
 </html>
